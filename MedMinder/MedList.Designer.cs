@@ -37,11 +37,11 @@
             // 
             // button1
             // 
-            button1.Font = new Font("Segoe UI", 20F, FontStyle.Regular, GraphicsUnit.Point);
-            button1.Location = new Point(652, 372);
+            button1.Font = new Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point);
+            button1.Location = new Point(683, 400);
             button1.Margin = new Padding(0);
             button1.Name = "button1";
-            button1.Size = new Size(121, 51);
+            button1.Size = new Size(91, 34);
             button1.TabIndex = 0;
             button1.Text = "Add";
             button1.UseVisualStyleBackColor = true;
@@ -98,7 +98,6 @@
             Controls.Add(button1);
             Name = "MedList";
             Text = "Form2";
-            Load += MedList_Load;
             ResumeLayout(false);
             PerformLayout();
         }

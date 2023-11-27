@@ -17,14 +17,11 @@ namespace MedMinder
             InitializeComponent();
         }
 
-        private void MedList_Load(object sender, EventArgs e)
-        {
-
-        }
-
         private void button1_Click(object sender, EventArgs e)
         {
-
+            MedName MedName = new MedName();  // Membuat instansi dari Form2
+            MedName.Show();  // Menampilkan Form2
+            this.Hide();
         }
 
         private void listBox3_SelectedIndexChanged(object sender, EventArgs e)
